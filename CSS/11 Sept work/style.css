@@ -5,7 +5,7 @@
     position:relative;
 }
 
-#box{
+#rectangle{
     background-color: rgb(8, 8, 102);
     position: absolute;
     top: 110px;
