@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;;
+}
+
+.container{
+    display:flex;
+    width:100%vw;
+    justify-content: center;
+    height: 70px;
+    gap: 50px;
+    background-color: wheat;
+}
+
+.item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: aqua; */
+    font-size: x-large;
+    font-weight: 800;
+    font-style: inherit;
+    padding: 10px;
+}
+
+.salesbar{
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.129);
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(126, 233, 199);
+}
+
+
+.content{  
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    animation-name: moving;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes moving {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
