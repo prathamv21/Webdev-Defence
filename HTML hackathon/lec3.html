@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lecture 3</title>
+</head>
+<body>
+  <h1>Lecture 3: Nested Lists & Tables</h1>
+  <p>Watch Lecture Video</p>
+  <iframe width="560" height="315" src="https://youtube.com/embed/AJ4E1zf5tQs" allowfullscreen> </iframe>
+  <fieldset>
+    <legend><h3>Nested Lists</h3></legend>
+    <p>We can create nested lists in HTML:</p>
+    <p>Example:</p>
+    <ol>
+        <li>Car</li>
+        <li>Bike
+            <ul>
+                <li>Electric Bike</li>
+                <li>Super Bike</li>
+                <li>Mountain Bike</li>
+            </ul>
+        </li>
+        <li>Plane
+            <ul>
+                <li>Commercial Plane</li>
+                <li>Fighter Plane</li>
+                <li>Private Plane</li>
+            </ul>
+        </li>
+        <li>Helicopter</li>
+    </ol>
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>Tables in HTML</h3></legend>
+    <h4>Basic Tables:</h4>
+    <p>Tags like table, tr, th, td, thead, tbody ,tfoot are used to make tables in HTML.</p>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        </thead> 
+        
+        <tbody>
+        <tr>
+            <td>Apple</td>
+            <td>10</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>5</td>
+            <td>$1.5</td>
+        </tr>
+        </tbody>
+
+
+            <tfoot>
+            <tr>  
+            <td>Total</td>
+            <td>15</td>
+            <td>$2.50</td>
+        </tr>
+        </tfoot>
+    </table>
+    <h4>Advanced Tables:</h4>
+    <p>Concept like rowspan and colspan can be used to create tables with specific requirement.</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Level1</th>
+                <th>Level2</th>
+                <th>Level3</th>
+                <th>Level4</th>
+                <th>Level5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">System</td>
+                <td rowspan="4">System Apps</td>
+                <td rowspan="3">System Env</td>
+                <td>App Test</td>
+                <td rowspan="2">Foo</td>
+            </tr>
+            <tr>
+                <td>App memory</td>
+            </tr>
+            <tr>
+                <td>App test</td>
+                <td rowspan="2">bar</td>
+            </tr>
+            <tr>
+                <td>
+                    System Env 2
+                </td>
+                <td>
+                    App memory
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">System Memory</td>
+                <td>Memory Func</td>
+                <td>Foo</td>
+            </tr>
+            <tr>
+                <td>Apes test</td>
+                <td>Bar</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Rows: 7 col: 5 -->
+
+    <table>
+        <thead>
+            <tr>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </tbody>
+    </table>
+
+  </fieldset>
+  <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>

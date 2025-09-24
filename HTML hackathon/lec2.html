@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lecture 2</title>
+</head>
+<body>
+  <h1>Lecture 2: Introduction to HTML</h1>
+  <p>Watch Lecture Video</p>
+  <iframe width="560" height="315" src="https://youtube.com/embed/GkZN_-HMCJ8" allowfullscreen> </iframe>
+  <fieldset>
+    <legend><h3>What is HTML?</h3></legend>
+    <p>HTML stands for <b>HyperText Markup Language</b>. It is the standard language used to create and structure the content of a webpage.</p>
+    <ul>
+        <li>
+            <p><b>HyperText:</b>This refers to the ability to create links that connect web pages to one another, making the web a connected "web" of information.</p>
+        </li>
+        <li>
+            <p><b>Markup Language:</b>This means you use "tags" to surround your content, giving that content meaning and structure. You are "marking up" a plain text document.</p>
+        </li>
+    </ul>
+    <a href="https://info.cern.ch/hypertext/WWW/TheProject.html">Click here to go and explore first website</a>
+    <p>There are many different tags in HTML:</p>
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>1: The Heading(h1 to h6)</h3></legend>
+    <p>Headings are tags used to define titles and subtitles on your page. They are crucial for creating a logical hierarchy and outline for your content.</p>
+    <img src="./images/heading.png" alt="heading img">
+    <p><b>The Purpose</b>:To structure your document in a way that is understandable to both humans and machines (like search engines and screen readers). It is not just for making text big; it is for giving the text structural importance.</p>
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>2. The Paragraph</h3></legend>
+    <p>The paragraph tag is the most common tag you'll use. It's for grouping sentences and blocks of text together.</p>
+    <img src="./images/paragraph.png" alt="heading img">
+    <p><b>The Purpose</b>:To structure your document in a way that is understandable to both humans and machines (like search engines and screen readers). It is not just for making text big; it is for giving the text structural importance.</p>
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>3: HTML Horizontal Rules</h3></legend>
+    <p>The hr tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+        The hr element is used to separate content (or define a change) in an HTML page:</p>
+    <img src="./images/horizontal.png" alt="heading img">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>4. The Line Break Tag</h3></legend>
+    <p>This tag tells the browser, "Stop writing on this line and immediately start on the next one." It's like hitting the Enter key once in a poem or an address.It's purpose is to creates a single line break.</p>
+    <img src="./images/break.png" alt="heading img">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>6. List Elements</h3></legend>
+    <p>These tags are used to create lists. This is a perfect example of nesting.</p>
+    <p>The tags are:</p>
+    <ul>
+        <li><b>ul:</b> An Unordered List. It creates a bulleted list.</li>
+        <li><b>ol:</b> An Ordered List. It creates a numbered list.</li>
+        <li><b>li:</b> A List Item. Each item in either type of list must be wrapped in an li tag.</li>
+    </ul>
+    <img src="./images/lists.png" alt="heading img">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>7: The Anchor Tag</h3></legend>
+    <p>The Anchor tag is what makes the web "hypertext." It is used to create a hyperlink to another webpage, a file, or a location within the same page.It's purpose is to make text (or an image) clickable, allowing users to navigate. It requires an attribute called href (hypertext reference) to specify the destination URL.</p>
+    <img src="./images/anchor.png" alt="heading img">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>8. The Image Tag </h3></legend>
+    <p>The Image tag is a self-closing tag used to embed an image onto your page.
+        <br>
+         <b>The Purpose</b> :To display a visual image. It requires two main attributes:
+
+- src (source): The path or URL to the image file. This is mandatory.
+- alt (alternative text): A description of the image. This is vital for accessibility (screen readers for the visually impaired will read this out) and for when the image fails to load.
+    </p>
+    <img src="./images/img.png" alt="heading img">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>Basic HTML Document Example</h3></legend>
+    
+  <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+  </pre>
+  </fieldset>
+  
+  <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
